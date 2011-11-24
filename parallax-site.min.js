@@ -1,5 +1,5 @@
 /*
-Parallax Site
+Parallax Site 1.0
 https://github.com/koggdal/parallax-site
 
 Copyright 2011 Johannes Koggdal (http://koggdal.com/)
