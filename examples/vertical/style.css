@@ -1,0 +1,119 @@
+/*
+	Reset the spacing between browser border and site content
+*/
+
+body {
+	margin: 0;
+}
+
+
+/*
+	Basic setup for the different sections of the site
+*/
+
+.section {
+	width: 100%;
+	height: 1000px;
+	overflow: hidden;
+}
+.section-1 {
+	background: url(bg1.png) fixed;
+}
+.section-2 {
+	background: url(bg2.png) fixed;
+}
+.section-3 {
+	background: url(bg3.png) fixed;
+}
+
+
+
+
+
+
+/*
+	Setup for the objects that will act as layers
+*/
+
+.obj-wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+	.obj {
+		background: #fff;
+		box-shadow: 0 5px 20px rgba(0,0,0,.2);
+		border: 1px solid #bbb;
+
+		width: 100px;
+		height: 100px;
+
+		text-align: center;
+		text-transform: uppercase;
+		font: 14px/100px sans-serif;
+	}
+
+
+
+
+	/* Section 1 */
+
+	.section-1 .obj-1 {
+		margin: 120px 0 0 250px;
+		width: 400px;
+	}
+	.section-1 .obj-2 {
+		margin: 250px 0 0 300px;
+		width: 300px;
+		height: 400px;
+	}
+	.section-1 .obj-3 {
+		margin: 350px 0 0 550px;
+		width: 200px;
+	}
+	.section-1 .obj-4 {
+		margin: 500px 0 0 250px;
+	}
+
+
+
+	/* Section 2 */
+
+	.section-2 .obj-1 {
+		margin: 400px 0 0 200px;
+		width: 500px;
+		height: 50px;
+		line-height: 50px;
+	}
+	.section-2 .obj-2 {
+		margin: 300px 0 0 350px;
+		width: 300px;
+		height: 200px;
+		line-height: 200px;
+	}
+	.section-2 .obj-3 {
+		margin: 200px 0 0 450px;
+	}
+	.section-2 .obj-4 {
+		margin: 400px 0 0 600px;
+	}
+
+
+
+	/* Section 3 */
+
+	.section-3 .obj-1 {
+		margin: 500px 0 0 400px;
+		width: 300px;
+	}
+	.section-3 .obj-2 {
+		margin: 400px 0 0 300px;
+		width: 200px;
+	}
+	.section-3 .obj-3 {
+		margin: 350px 0 0 430px;
+		height: 400px;
+		line-height: 400px;
+	}
+	.section-3 .obj-4 {
+		margin: 600px 0 0 340px;
+	}
