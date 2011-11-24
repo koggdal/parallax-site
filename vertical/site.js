@@ -1,0 +1,5 @@
+(function () {
+
+	parallaxSite.create();
+	
+}());
